@@ -1,0 +1,1 @@
+Thank you for trying the Google Cloud sandbox. [Find more Google Cloud content on the Topics page.](https://learning.oreilly.com/search/topics/google-cloud-platform-gcp/?type=*&rows=10)

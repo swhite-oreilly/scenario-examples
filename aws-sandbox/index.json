@@ -1,0 +1,33 @@
+{
+    "icon": "fa-ubuntu",
+    "authenticated": false,
+    "title": "AWS Sandbox",
+    "description": "Explore AWS in a sandboxed environment with a temporary account",
+    "details": {
+        "steps": [
+            {
+                "title": "Getting Started",
+                "text": "step1.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "code": "set-env.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "environment": {
+        "uilayout": "terminal-v1",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n",
+        "uidependencies": [
+            "/socket.io/socket.io.js",
+            "/javascripts/term.js",
+            "/javascripts/terminal-application.js"
+        ]
+    },
+    "backend": {
+        "imageid": "orm-aws"
+    }
+}

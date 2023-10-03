@@ -1,0 +1,66 @@
+{
+    "icon": "fa-google",
+    "authenticated": false,
+    "title": "Google Cloud Sandbox",
+    "description": "Explore Google Cloud in a sandboxed environment with a temporary account",
+    "details": {
+        "steps": [
+            {
+                "title": "Getting Started",
+                "text": "step1.md"
+            },
+            {
+                "title": "Cloud Storage",
+                "text": "storage.md"
+            },
+            {
+                "title": "Use Terraform to manage storage",
+                "text": "terraform.md"
+            },
+            {
+                "title": "Compute Engine",
+                "text": "compute.md"
+            },
+            {
+                "title": "Google Kubernetes Engine (GKE)",
+                "text": "gke.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "code": "set-env.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "client": [
+                {
+                    "file": "main.tf",
+                    "target": "/root/terraform"
+                },
+                {
+                    "file": "sample_file.txt",
+                    "target": "/root/terraform"
+                },
+                {
+                    "file": "get_credentials",
+                    "target": "/usr/local/bin",
+                    "chmod": "+x"
+                }
+            ]
+        }
+    },
+    "environment": {
+        "uilayout": "terminal-v1",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n",
+        "uidependencies": [
+            "/socket.io/socket.io.js",
+            "/javascripts/term.js",
+            "/javascripts/terminal-application.js"
+        ]
+    },
+    "backend": {
+        "imageid": "orm-gcp"
+    }
+}
