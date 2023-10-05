@@ -12,3 +12,6 @@ Related content:
 - [GCP: First Steps Expert Playlist](https://learning.oreilly.com/playlists/56f917d9-0974-426c-800b-32b41294c943/)
 - [Google Cloud Cookbook](https://learning.oreilly.com/library/view/google-cloud-cookbook/9781492092889/)
 - [Cloud Native Development with Google Cloud](https://learning.oreilly.com/library/view/cloud-native-development/9781098145071/)
+
+
+This lab provides a real cloud platform environment and user account lasting 60 minutes. It is intended to be used for educational purposes within the scope of the lab instruction. We are monitoring for suspicious activity.
